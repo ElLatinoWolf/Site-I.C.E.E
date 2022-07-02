@@ -15,12 +15,9 @@
 3. - Qual a importância da sustentabilidade?
 4. - Cite três práticas sustentavéis:
 5. - Relacione as lixeiras abaixo para seus respectivos tipos de resíduos:
-
-
-###### Autores:
-_*Gabriel Rodrigues*_
-    _*Contato: gabrieljdev@gmail.com*_
-
-_*Raphael Alexis Biver*_
-    _*Contato: ra.alexisbiver@gmail.com*_
-
+<p align="center">
+    Gabriel Rodrigues
+    Contato: <br> gabrieljdev@gmail.com ;<br>
+    Raphael Alexis Biver
+    Contato: <br> ra.alexisbiver@gmail.com.
+</p>
