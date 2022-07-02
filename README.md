@@ -7,8 +7,7 @@
 </p>
 
 <p align="center">
-<img src="C:\Users\Gabriel\OneDrive\Escola\(I.C. e E)Intervenção comunitária e Empreendedorismo\Trabalho\IMG\IC.jpg">
-</p>
+<img src="C:\Users\Gabriel\OneDrive\Escola\(I.C. e E)Intervenção comunitária e Empreendedorismo\Trabalho\IMG\IC.jpg"/>
 
 <h2 align="center">Sobre<h2>
 
