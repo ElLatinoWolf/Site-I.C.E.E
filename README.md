@@ -4,11 +4,11 @@
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
 
-## Sobre
+<h2 align="center">Sobre<h2>
 
-        Projeto dedicado à criação de uma página formulário parte constituinte de projeto escolar.
+<p> Projeto dedicado à criação de uma página formulário parte constituinte de projeto escolar. </p>
 
-## Perguntas:
+<h2 align="center">Perguntas</h2>
 
 1. - Você sabe oque é sustentabilidade?
 2. - Em quais àmbitos a sustentabilidade tem base?
@@ -19,6 +19,7 @@
 <br>
 <br>
 <br>
+<h6 align="center">Autores</h6>
 <p align="center">
     Gabriel Rodrigues
     Contato: <br> gabrieljdev@gmail.com ;<br>
