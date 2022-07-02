@@ -29,7 +29,7 @@
 <p align="center">
     Gabriel Rodrigues
     Contato:<br>
-    ![gabrieljdev@gmail.com](gabrieljdev@gmail.com) ;<br>
+    gabrieljdev@gmail.com;<br>
     Raphael Alexis Biver
     Contato: <br> ra.alexisbiver@gmail.com.
 </p>
