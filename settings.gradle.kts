@@ -13,5 +13,5 @@ pluginManagement {
     }
 }
 
-rootProject.name = "Trabalho"
+rootProject.name = "Site"
 

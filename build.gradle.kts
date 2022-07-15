@@ -7,8 +7,8 @@ plugins {
     id("org.jetbrains.compose")
 }
 
-group = "com.Trabalho"
-version = "1.0-SNAPSHOT"
+group "com.example"
+version "1.0-SNAPSHOT"
 
 repositories {
     google()
@@ -17,29 +17,29 @@ repositories {
 }
 
 kotlin {
-    jvm {
-        compilations.all {
-            kotlinOptions.jvmTarget = "11"
-        }
-        withJava()
-    }
-    sourceSets {
-        val jvmMain by getting {
-            dependencies {
-                implementation(compose.desktop.currentOs)
+    js(IR) {
+        browser {
+            testTask {
+                testLogging.showStandardStreams = true
+                useKarma {
+                    useChromeHeadless()
+                    useFirefox()
+                }
             }
         }
-        val jvmTest by getting
+        binaries.executable()
     }
-}
-
-compose.desktop {
-    application {
-        mainClass = "MainKt"
-        nativeDistributions {
-            targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-            packageName = "demo"
-            packageVersion = "1.0.0"
+    sourceSets {
+        val jsMain by getting {
+            dependencies {
+                implementation(compose.web.core)
+                implementation(compose.runtime)
+            }
+        }
+        val jsTest by getting {
+            dependencies {
+                implementation(kotlin("test-js"))
+            }
         }
     }
 }
