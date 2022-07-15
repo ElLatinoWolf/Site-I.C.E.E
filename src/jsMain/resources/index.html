@@ -1,11 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
+
     <meta charset="UTF-8">
-    <title>Sample</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="IMG/favicon-16x16.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz Sustentabilidade</title>
+
 </head>
+
 <body>
-<div id="root"></div>
-<script src="Site.js"></script>
+
+    <h1>Sustentabilidade</h1>
+
+    
+
+    <form action="fim.html">
+        <!--Pergunta 1-->
+        <div class="PG1">
+        <h6>1</h6>
+        <p>Você sabe oque é Sustentabilidade?
+            <br>
+            <!--Favor tentar colocar Checkbox lado a lado-->
+            <p>Sim</p>
+            <input type="checkbox" value="Sim" class="ckbx"> 
+            <p>Não</p>
+            <input type="checkbox" value="Não" class="ckbx"> 
+            </p>
+        <hr>
+    </div>
+        <!--Pergunta 2-->
+        <div class="PG2">
+        <h6>2</h6>
+        <p>Em quais àmbitos a sustentabilidade tem base?
+            <br>
+            <input type="search" size="25"  name="Pergunta02" id="cpmtxt">
+            </p>
+        <hr>
+    </div>
+        <!--Pergunta 3-->
+        <div class="PG3">
+        <h6>3</h6>
+        <p>Qual é a importância da sustentabilidade?
+            <br>
+            <input type="search" size="25" name="Pergunta03" id="cpmtxt">
+            </p>
+        </div>
+        <!--Pergunta 4-->
+        <div class="PG4">
+        <h6>4</h6>
+        <p>Cite três práticas sustentavêis:
+            <br>
+            <input type="search" size="25" name="Pergunta04A" id="cpmtxt">
+            <input type="search" size="25" name="Pergunta04B" id="cpmtxt">
+            <input type="search" size="25" name="Pergunta04C" id="cpmtxt">
+            </p>
+        <hr>
+    </div>
+        <!--Pergunta 5-->
+        <div class="PG5">
+        <h6>5</h6>
+        <p>Relacione os recicláveis abaixo com sua respectiva lixeira:
+            <p>1-Vermelho</p>         
+            <p>2-Verde</p>
+            <p>3-Azul</p>
+            <p>4-Amarelo</p>
+            <p>5-Marrom</p>
+            <!--Colocar a coluna de L.56 a L.60 à frente da coluna 50 à 54 repectivamente-->
+            <p>A-Papel</p>
+            <p>B-Orgânico</p>
+            <p>C-Plástico</p>
+            <p>D-Metal</p>
+            <p>E-Vidro</p>
+        <hr>
+    </div>
+        '<!--Botão-Enviar-->
+        <div align="center" class="fim1">
+            <button class="link"> <a href="fim.html">Enviar</a> </button>
+        </div>
+        <hr>
+        
+    </form>
+    <!--Rodapé-->
+    <div class="rodape">
+        <h4>Autores:</h4>
+        <p><b>João Gabriel Rodrigues dos Santos - gabrieljdev@gmail.com</b></p>
+        <p><b>Raphael Alexis Biver - ra.alexisbiver@gmail.com</b></p>
+        <a href="login.html" class="link">Voltar à página de Login</a>
+    </div>
+
 </body>
+<!--Pergunta1-> Acrescentar campo de texto para 250 caracteres;
+Pergunta2 -> Acrescentar campo de texto para 100 caracteres;
+Pergunta3 ->Acrescentar campo de texto para 250 caracteres;
+Pergunta4 ->--
+Pergunta5 -> Alinhar do "1" ao "5" com o "A" a "E"-->
+
 </html>
