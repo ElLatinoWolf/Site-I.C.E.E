@@ -30,6 +30,6 @@
     Lukas Miller<br>
     Raphael Alexis Biver
     <br>
-    gabrieljdev@gmail.com
+    gabrieljdev@gmail.com <br>
     ra.alexisbiver@gmail.com.
 </p>
