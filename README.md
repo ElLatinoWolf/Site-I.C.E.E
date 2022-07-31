@@ -27,8 +27,9 @@
 <h6 align="center">Autores</h6>
 <p align="center">
     Gabriel Rodrigues
-    Contato:<br>
-    gabrieljdev@gmail.com;<br>
+    Lukas Miller
     Raphael Alexis Biver
-    Contato: <br> ra.alexisbiver@gmail.com.
+    <br>
+    gabrieljdev@gmail.com
+    ra.alexisbiver@gmail.com.
 </p>
