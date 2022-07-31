@@ -26,8 +26,8 @@
 <br>
 <h6 align="center">Autores</h6>
 <p align="center">
-    Gabriel Rodrigues
-    Lukas Miller
+    Gabriel Rodrigues <br>
+    Lukas Miller<br>
     Raphael Alexis Biver
     <br>
     gabrieljdev@gmail.com
